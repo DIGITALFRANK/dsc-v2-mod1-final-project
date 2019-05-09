@@ -83,6 +83,7 @@ After careful consideration, we decided that using the highest correlated variab
 
 ### 3. Model Implementation
 
+blah blah blah
       
 
 
@@ -93,14 +94,11 @@ After careful consideration, we decided that using the highest correlated variab
 
 ### A Multivariable Regression model using square foot of living space and price per square foot of living space is a good predictor of Sale Price 
 
-Your presentation should:
+blah blah blah
 
-* Contain between 5 - 10 professional-quality slides.  
-    * **Level Up**: The slides should use visualizations whenever possible, and avoid walls of text. 
-* Take no more than 5 minutes to present.   
-* Avoid technical jargon and explain the results in a clear, actionable way for non-technical audiences.   
+ 
 
-**_Based on the results of your models, your presentation should discuss at least two concrete features that highly influence housing prices._**
+**_Based on the results of your models, square foot of living space and price per square foot are the strongest predictors of a home's Sale Price.  Bathrooms also add value to homes and is a good predictor to consider_**
 
 
 
