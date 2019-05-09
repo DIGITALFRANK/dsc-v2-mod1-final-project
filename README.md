@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this project we analyzed home sale data from King County, Oregon (Seattle area) between 2014-2015
+In this project we analyzed home sale data from King County, Oregon (Seattle area) between 2014-2015.  
 Based on our findings in the dataset, we engineered some new features and implemented Multivariate Linear Regression to most accurately predict our target of Sale Price
 
 
@@ -19,7 +19,7 @@ Our goal was to:
 
 ## The Dataset
 
-For this project, we be worked with the King County House Sales dataset.  The dataset can be found in the file `"kc_house_data.csv"`, in this repo. 
+For this project, we worked with the King County House Sales dataset.  The dataset can be found in the file `"kc_house_data.csv"`, in this repo. 
 
 As the column names and their descriptions were not perfectly described, we did do some additional research and used our best judgment relating to what the data actually means.  Overall, things were pretty clear and we quickly gathered an idea of which features we would use and which we would disguard or ignore.
 
@@ -30,9 +30,14 @@ A sample of the original data...
 
 
 
-## The Deliverables
+## Homes Sale Price Distribution
 
-There will be four  deliverables for this project:
+Our predition target, 'price' in its distribution:
+
+![raw_data_sample](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/price_dist.png)
+
+
+Though Sale Price distribution was skewed right, we felt no need to normalize at this instant because we believed the outliers to be **TRUE**, as in a clear and constant linear repesentation of price, as related to other variables
 
 
 ## The Process
