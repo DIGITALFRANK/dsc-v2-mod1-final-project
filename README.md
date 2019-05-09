@@ -52,40 +52,37 @@ We start with some initial Exploratary Data Analysis on the raw data set and see
 
 
 #### We got the following insights from out data:
+
     * Square foot of living space had the hightst correlation with Sale Price
+    
     * Home values differ drastically depending on location (ask any real estate agent!)
+    
     * The bedroom to bathroom ratio and their amounts can tell a good story about Sale Price
+    
     * How old the house is doesn't not seem to have a major impact on Sale Price
+    
     * Home Condition & Grade are consistant with Sale Price
+    
     * Sale Price increases as Latitude and Longitude approaches the city of Seattle
+    
     * Whether the home has been viewed and how many times by real estate agents has no impact on Sale Price 
+    
     * A large basement can be an asset to a home's Sales Price but is not a predictor of Sale Price
+    
     * (reported) Renovation does not seem to greatly impact Sale Price
 
-Think of the first phase of the review (~30 mins) as a technical boss reviewing your work and asking questions about it before green-lighting you to present to the business team. You should practice using the appropriate technical vocabulary to explain yourself. Don't be surprised if the instructor jumps around or sometimes cuts you off - there is a lot of ground to cover, so that may happen.
+Our model will only be good as the data we feed it.  It is very important that not only does it make common sense to predict from this data, but also that the data is rich in its amount and direct correlation to our prediction target.  Some categorical data, such as the zipcode of homes seem very attractive at this point, however, feeding our linear model a bunch of zipcodes does nothing in evaluating the relationship between a home's sales price and its zipcode (our model is linear).  One option would be to somehow wrangle zipcodes and latitudes and longitudes together to find some kind of linear value of location, but clearly that would be using a wrench to stab a pin, and it offers us no guarantee.
 
-If any requirements are missing or if significant gaps in understanding are uncovered, be prepared to do one or all of the following:
-* Perform additional data cleanup, visualization, feature selection, modeling and/or model validation
-* Submit an improved version
-* Meet again for another Project Review
 
 
 ### 3. Prediction Approach
 
-
-
-* The notebook should be well organized, easy to follow,  and code should be commented where appropriate.  
-    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code.  All functions have docstrings that act as professional-quality documentation
-* The notebook is written for technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings. 
+After careful consideration, we decided that using the highest correlated variable, `sqft_living`, or square foot of living space to feed our model was our best route.  Additionally, to account for location pricing in a clever and yet linear fashion, we engineered a new feature`price_per_sqft_living` which takes a home's total square foot of living space and divides it by its sale price.  This new feature indireclty accounts for location pricing as homes in a general area have a similar price per sqare foot, it remains linear which is good food for our Regression model.  It also uses past sales price data to predict future sales prices, which is what is most common sense.  For our Multivariate Linear Regression model, we also added `bathrooms`, the number of bathrooms the home has, as an independent variable predictor.  This variable is a good indicator of the home's size and numbe of bedrooms, ie: living space the home has.  
 
 
 
 ### 3. Model Implementation
 
-* Your project contains at least 4 meaningful data visualizations, with corresponding interpretations. All visualizations are well labeled with axes labels, a title, and a legend (when appropriate)  
-* You pose at least 3 meaningful questions and answer them through EDA.  These questions should be well labeled and easy to identify inside the notebook. 
-    * **Level Up**: Each question is clearly answered with a visualization that makes the answer easy to understand.   
-* Your notebook should contain 1 - 2 paragraphs briefly explaining your approach to this project.
       
 
 
