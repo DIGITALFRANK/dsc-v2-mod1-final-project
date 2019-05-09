@@ -19,13 +19,13 @@ Our goal was to:
 
 ## The Dataset
 
-For this project, you'll be working with the King County House Sales dataset. We've modified the dataset to make it a bit more fun and challenging.  The dataset can be found in the file `"kc_house_data.csv"`, in this repo. 
+For this project, we be worked with the King County House Sales dataset.  The dataset can be found in the file `"kc_house_data.csv"`, in this repo. 
 
-The description of the column names can be found in the column_names.md file in this repository. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
+As the column names and their descriptions were not perfectly described, we did do some additional research and used our best judgment relating to what the data actually means.  Overall, things were pretty clear and we quickly gathered an idea of which features we would use and which we would disguard or ignore.
 
-You'll clean, explore, and model this dataset with a multivariate linear regression to predict the sale price of houses as accurately as possible. 
+A sample of the original data...
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-v2-mod1-final-project/master/awesome.gif)
+![raw_data_sample](https://github.com/DIGITALFRANK/dsc-v2-mod1-final-project/raw_data_sample.png)
 
 
 
@@ -155,4 +155,6 @@ By engineering a 'price_per_sqft_living' feature, we were able to pass in the be
 
 By examining our model's coefficients, we conluded that a home's sale price in King County can be predicted with the following formula:
 
-y = (6.5 * 10^3) + 297.4770x1 + 2089.6125x2 + 9811.1640x3
+y = (6.5 * 10^3) + 297.4770**x1** + 2089.6125**x2** + 9811.1640**x3**
+
+where x1, x2, and x3 represent the home's **square footage of living space**, **price per square foot of living space**, and **number of bathrooms**, respectively.
