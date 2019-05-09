@@ -4,18 +4,22 @@
 
 ## Introduction
 
-In this project we analyzed home sale data from King County, Oregon (Seattle area) between 2014-2015
-Based on our findings in the dataset, we engineered some new features and implemented Multivariate Linear Regression to most accurately predict our target of Sale Price
-
+In this lesson, we'll review all of the guidelines and specifications for the final project for Module 1. 
 
 ## Objectives
-Our goal was to:
-* Access data and transform it into the most desireable format
-* work with clean, consistant, and meaningful data 
-* implement Multiple Regression and Ordinary Least Squares
-* Find the most accurate function to predict Sale Price of a home in King County
+You will be able to:
+* Describe all required aspects of the final project for Module 1
+* Describe all required deliverables
+* Describe what constitutes a successful project
+* Describe what the experience of the project review should be like
 
+## Final Project Summary
 
+You've made it all the way through the first module of this course - take a minute to celebrate your awesomeness! 
+
+![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-v2-mod1-final-project/master/awesome.gif)
+
+All that remains in Module 1 is to put our newfound data science skills to use with a final project! You should expect this project to take between 40 and 50 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
 
 ## The Dataset
 
@@ -24,11 +28,6 @@ For this project, you'll be working with the King County House Sales dataset. We
 The description of the column names can be found in the column_names.md file in this repository. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
 
 You'll clean, explore, and model this dataset with a multivariate linear regression to predict the sale price of houses as accurately as possible. 
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-v2-mod1-final-project/master/awesome.gif)
-
-
-
 
 ## The Deliverables
 
@@ -151,8 +150,9 @@ _Reminder: Make sure to also add and commit a pdf of your non-technical presenta
 
 ## Summary
 
-By engineering a 'price_per_sqft_living' feature, we were able to pass in the best possible independent variables to our Multivariate Regression model, which returned a confidant R^2 value of **0.881**
+The end of module projects and project reviews are a critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with.
 
-By examining our model's coefficients, we conluded that a home's sale price in King County can be predicted with the following formula:
+The projects are serious and important. They are not graded, but they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
 
-y = (6.5 * 10^3) + 297.4770x1 + 2089.6125x2 + 9811.1640x3
+Finally, this is your first project. We don't expect you to remember all of the terms or to get all of the answers right. If in doubt, be honest. If you don't know something, say so. If you can't remember it, just say so. It's very unusual for someone to complete a project review without being asked a question they're unsure of, we know you might be nervous which may affect your performance. Just be as honest, precise and focused as you can be, and you'll do great!
+
