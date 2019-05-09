@@ -25,7 +25,7 @@ As the column names and their descriptions were not perfectly described, we did 
 
 A sample of the original data...
 
-![raw_data_sample](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/raw_data_sample.png)
+![raw_data_sample](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/raw_data_sample.png)
 
 
 
