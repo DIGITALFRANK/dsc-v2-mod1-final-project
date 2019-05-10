@@ -81,25 +81,23 @@ After careful consideration, we decided that using the highest correlated variab
 
 
 
-### 3. Model Implementation
-
-blah blah blah
-      
-
-
-
-
 ## Our Results
 
 
-### A Multivariable Regression model using square foot of living space and price per square foot of living space is a good predictor of Sale Price 
+### An Ordinary Least Squares Multivariable Regression model using square foot of living space and price per square foot of living space is a good predictor of Sale Price, adding number of bathrooms as an additional independent variable slightly improves our results.
 
-blah blah blah
+Implementing our OLS model with these independent variables gives us fairly strong positive prediction results,
+specifically, a strong coefficient of determination (R^2) value of .881
+      
+![raw_data_sample](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/ols_results.png)
 
  
 
 **_Based on the results of your models, square foot of living space and price per square foot are the strongest predictors of a home's Sale Price.  Bathrooms also add value to homes and is a good predictor to consider_**
 
+visualizing to check for regression assumptions in error terms, our predictions are pretty consistant with the data.
+
+![raw_data_sample](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/erro_check.png)
 
 
 
@@ -111,7 +109,7 @@ By examining our model's coefficients, we conluded that a home's sale price in K
 
 y = (6.5 * 10^3) + 297.4770**x1** + 2089.6125**x2** + 9811.1640**x3**
 
-where x1, x2, and x3 represent the home's **square footage of living space**, **price per square foot of living space**, and **number of bathrooms**, respectively.  Please See the presentation PDF in this repo for a quick summary of our process and findings
+where x1, x2, and x3 represent the home's **square footage of living space**, **price per square foot of living space**, and **number of bathrooms**, respectively.  In King County, adding a bathroom to your home increases its value by roughly 10K. Please See the presentation PDF in this repo for a quick summary of our process and findings
 
 
 
