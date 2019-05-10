@@ -110,7 +110,7 @@ By examining our model's coefficients, we conluded that a home's sale price in K
 
 y = (6.5 * 10^3) + 297.4770**x1** + 2089.6125**x2** + 9811.1640**x3**
 
-where x1, x2, and x3 represent the home's **square footage of living space**, **price per square foot of living space**, and **number of bathrooms**, respectively.  In King County, adding a bathroom to your home increases its value by roughly 10K. Please See the presentation PDF in this repo for a quick summary of our process and findings
+where x1, x2, and x3 represent the home's **square footage of living space**, **price per square foot of living space**, and **number of bathrooms**, respectively.  In King County, adding a bathroom to your home increases its value by roughly 10K. Please See the presentation PDF in this repo for a quick summary of our process and findings.  The Jupyter Notebook containing the projects' code is regression.ipynb
 
 
 
