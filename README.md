@@ -84,7 +84,7 @@ After careful consideration, we decided that using the highest correlated variab
 ## Our Results
 
 
-### An Ordinary Least Squares Multivariable Regression model using square foot of living space and price per square foot of living space is a good predictor of Sale Price, adding number of bathrooms as an additional independent variable slightly improves our results.
+### An Ordinary Least Squares Multivariable Regression model using total square footage of living space, and price per square foot of living space, is a good predictor of a home's Sale Price.   Adding the number of bathrooms to our model as an additional independent variable slightly improves our results.
 
 Implementing our OLS model with these independent variables gives us fairly strong positive prediction results,
 specifically, a strong coefficient of determination (R^2) value of .881
