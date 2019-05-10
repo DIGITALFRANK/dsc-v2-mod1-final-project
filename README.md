@@ -89,15 +89,16 @@ After careful consideration, we decided that using the highest correlated variab
 Implementing our OLS model with these independent variables gives us fairly strong positive prediction results,
 specifically, a strong coefficient of determination (R^2) value of .881
       
-![raw_data_sample](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/ols_results.png)
+![ols_results](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/ols_results.png)
 
  
 
 **_Based on the results of your models, square foot of living space and price per square foot are the strongest predictors of a home's Sale Price.  Bathrooms also add value to homes and is a good predictor to consider_**
 
 visualizing to check for regression assumptions in error terms, our predictions are pretty consistant with the data.
+Not only that, visualizing for multicollinearity shows insignificant co-linearlity between our two main predictors, keeping them truely independent.
 
-![raw_data_sample](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/erro_check.png)
+![collinearity](https://raw.githubusercontent.com/DIGITALFRANK/dsc-v2-mod1-final-project/master/collinearity.png)
 
 
 
