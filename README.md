@@ -1,5 +1,5 @@
 
-# King County, Oregon (Seattle Area) House Sale Data Multivariable Linear Regression & OLS
+# King County, Oregon (Seattle Area) House Sale Data OLS Multivariable Linear Regression
 
 
 ## Introduction
